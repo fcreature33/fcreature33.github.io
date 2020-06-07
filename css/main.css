@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	    background-color: #1b2c40;
+}
+
+.main{
+	margin-top: 25px;
+}
+
+nav ul li{
+	margin-left: 20px; 
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.navbar{
+	background-color: #1b2c40;
+}
+
+.navbar-dark .navbar-nav .active .nav-link {
+color: #CE245A;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #CE245A;
+	transition: color 1.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link:not(hover){
+	color: white;
+	transition: color 1.2s;
+}
+
+.jumbotron{
+	color: white;
+	background-color: #0a0a10; 
+}
+
+.lead{
+	padding-top: 10px;
+}
+
+.type_text{
+	color: white;
+	margin-bottom: 15px;
+}
+
+.subtext{
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 17px;
+}
+
+.btn-font-2{
+	font-family: 'Oswald', sans-serif;
+	width: 120px;
+}
+
+.break{
+	margin-top: 50px;
+}
+
+
+.advantages-main{
+	color: #CE1036;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 20px;
+}
+
+.list-group-item{
+	margin-bottom: 10px;
+}
+
+.settings{
+	color: #CE1036;
+	font-family: 'Oswald', sans-serif;
+}
+
+.header-text{
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14pt;
+}
+
+
+.content{
+	background-color: white;
+	max-height: 950px;
+	padding-top: 15px;
+}
+
+.content p{
+	font-size: 18px;
+	color: #89808a;
+}
+
+.btn-color{
+	color: white;
+	background: #506CF0;
+}
+
+.btn-color:hover{
+	background: #5064c5;
+	transition: background 2s;
+	color: white;
+}
+
+.last-article-text{
+	padding-bottom: 15px;
+}
+
+.last-image-article{
+	padding-bottom: 15px;
+}
+
+.author-article{
+	color: #ff4655;
+}
+
+
+@media screen and (max-width: 768px){
+
+	.card{
+		margin-bottom: 15px;
+	}
+
+	.content{
+	background-color: white;
+	max-height: 1420px;
+	padding-top: 15px;
+}
+
+    .content p{
+	font-size: 13.5px;
+}
+
+.header-text{
+	font-size: 12pt;
+}
+
+.last-image-article{
+	padding-bottom: 10px;
+	width: 250px;
+	height: 200px;
+}
+
+}
