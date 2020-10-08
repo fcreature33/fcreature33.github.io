@@ -4,7 +4,7 @@
 }
 
 body{
-  background: #0F0D21;;
+  background: #120338;
 }
 
 .main{
@@ -47,6 +47,7 @@ color: #CE245A;
 .type_text{
 	color: white;
 	margin-bottom: 15px;
+	font-size: 18pt;
 }
 
 .subtext{
@@ -89,13 +90,14 @@ color: #CE245A;
 
 .content{
 	background-color: white;
-	max-height: 950px;
+	max-height: 1250px;
 	padding-top: 15px;
 }
 
 .content p{
 	font-size: 18px;
 	color: #89808a;
+	text-align: justify;
 }
 
 .btn-color{
@@ -127,6 +129,17 @@ color: #CE245A;
   border-radius: 50%;
 }
 
+.circle01{
+  left: calc(65% + 12vw);
+  top: calc(110vh + 12vw);
+  width: 12vw;
+  padding-top: 12vw;
+  transform-origin: 40% 54%;
+  background: linear-gradient(#F439D6, #F42B71);  /*pink to dark pink*/
+  animation: rotate 8s linear infinite;
+}
+
+
 .circle04{
   right: 90%;
   top: 60%;
@@ -146,6 +159,20 @@ color: #CE245A;
   background: linear-gradient(#4FE3FF, #9117FF);  /*light blue to purple*/
   transform-origin: 48% 48%;
   animation: rotatePathInside 6s linear infinite;
+}
+
+  .item {
+    visibility: hidden;
+    display: none;
+  }
+
+@keyframes rotate{
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
 }
 
 @keyframes rotateBob{
@@ -169,20 +196,24 @@ color: #CE245A;
   }
 }
 
+.content p{
+	margin-bottom: 15px;
+}
+
 
 @media screen and (max-width: 768px){
 
-	.card{
-		margin-bottom: 15px;
-	}
+.card{
+	margin-bottom: 15px;
+}
 
-	.content{
+.content{
 	background-color: white;
-	max-height: 1420px;
+	max-height: 1520px;
 	padding-top: 15px;
 }
 
-    .content p{
+ .content p{
 	font-size: 13.5px;
 }
 
@@ -198,6 +229,10 @@ color: #CE245A;
 
 .circle{
 	display: none;
+}
+
+.content p{
+	margin-bottom: 9px;
 }
 
 }
